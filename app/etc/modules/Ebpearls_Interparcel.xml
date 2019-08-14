@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Ebpearls_Interparcel>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ebpearls_Interparcel>
+    </modules>
+</config>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>Interparcel_Australia_Rates</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/lgpl-license.php">GNU Lesser General Public License (LGPL) </license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Interparcel offer a rate extention to take advantage of our low cost courier rates using some of Australia's biggest couriers</summary>
+    <description>Interparcel Australia rates extension offers the following&#xD;
+&#x2022; Shipping calculator at checkout&#xD;
+&#x2022;  Delivery options at checkout&#xD;
+&#x2022;  Access multiple couriers&#xD;
+The extention uses the dimension (length, width &amp; height) and weight of a product in the cart to determine the shipping rate and available domestic shipping methods.&#xD;
+This module is compatible with Magento Community version : 1.5 to 1.8&#xD;
+</description>
+    <notes>This module is compatible with Magento Community version : 1.5 to 1.8</notes>
+    <authors><author><name>Steve</name><user>InterparcelAU</user><email>customerservices@interparcel.com.au</email></author></authors>
+    <date>2014-10-09</date>
+    <time>06:01:16</time>
+    <contents><target name="magelocal"><dir name="Ebpearls"><dir name="Interparcel"><dir name="Block"><dir name="Cart"><file name="Shipping.php" hash="bf00fed9f27cfcdc499b4d7a2f8f4016"/></dir></dir><dir name="Helper"><file name="Data.php" hash="c7f44aff63908c032b4d79a61b7e02de"/></dir><dir name="Model"><dir name="Carrier"><file name="ShippingMethod.php" hash="146f32cd7e7ffe082c97bfa5640c2cef"/><dir name="Source"><file name="Carrierslist.php" hash="1099d7da45fe3ff685c3a33e447771cf"/><file name="Dimension.php" hash="b5e10fcc7cb659e9686f5d7558ef520d"/></dir></dir><file name="Carrierslist.php" hash="2ae0ea095a6d6d6a131184f90d6ca4c0"/><file name="Interparcel.php" hash="9beb18ee8d72597ebf81728eb286e37c"/><dir name="Mysql4"><dir name="Postcodes"><file name="Collection.php" hash="c8127d962c9f968378f7720b8e087dca"/></dir><file name="Postcodes.php" hash="b01f515f032ddb29ec4e4e1fe80ace7e"/></dir><file name="Postcodes.php" hash="aeef2ba9b6698f1e2bac1a5d914d375a"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="InterparcelController.php" hash="a8147e0d9041acd1efd09e1540a70761"/></dir><file name="InterparcelController.php" hash="55c33253827ffb538fd024d251d4dfb7"/></dir><dir name="etc"><file name="config.xml" hash="aa3cf6b553c25a0fc389bc549b73a898"/><file name="system.xml" hash="2ccb34f6e86412c6ed0eac2823de14db"/></dir><dir name="sql"><dir name="interparcel_setup"><file name="install-0.1.0.php" hash="89e602d57b0e9452e5c4b960c853a91d"/><file name="pc.csv" hash="5f08343e96034a491ab4a09a09eb95e4"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="interparcel.xml" hash="3b55cf74690b204bf75d8ebfd4a62483"/></dir><dir name="template"><dir name="interparcel"><file name="shippingorigin.phtml" hash="02bdf828715d7c858e5db4214418f468"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="interparcel.xml" hash="685de6da1c6655091c1efe6a6c552a1e"/></dir><dir name="template"><dir name="interparcel"><file name="autocompleter.phtml" hash="d7a8ed080acd63615a9d9bcbca23de64"/><dir name="checkout"><dir name="cart"><file name="shipping.phtml" hash="3aa7e1628ffcb6449212a768f17ccb0f"/></dir></dir><file name="js.phtml" hash="854735e2b5491413349af81dc40310ca"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ebpearls_Interparcel.xml" hash="82b2f4ea9ac4ec6dbfbb14bfafd23d9d"/></dir></target><target name="mage"><dir name="js"><dir name="interparcel"><file name="billing.js" hash="0073646b2442acf081039c56055deb01"/><file name="interparcel.js" hash="c91e0fe13a6ac978e9cff1835ff034b1"/><file name="shipping.js" hash="235be1d9ff94a9cb93bc5a1d1e67c48f"/><file name="shippingestimator.js" hash="1585e368ff89f463485d9e24745b21b7"/><file name="shippingorigin.js" hash="122298a53ecb07fc519f2768ae9729d1"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="interparcel.css" hash="b1ef707755711383905d97c22cb119eb"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

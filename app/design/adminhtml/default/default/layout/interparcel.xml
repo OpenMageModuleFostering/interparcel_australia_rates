@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <adminhtml_system_config_edit>
+        <reference name="content">
+            <block type="core/template" name="interparcel_js" template="interparcel/shippingorigin.phtml" />
+        </reference>
+        <reference name="head">
+<!--            <action method="addJs"><file>jQuery/jquery.min-1.7.1.js</file></action>
+            <action method="addJs"><file>jQuery/noConflict.js</file></action>-->
+            <action method="addJs"><file>interparcel/shippingorigin.js</file></action>
+        </reference>               
+    </adminhtml_system_config_edit>
+</layout>

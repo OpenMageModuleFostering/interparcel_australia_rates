@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+<!--    <default>
+        <reference name="before_body_end">
+            <block type="core/template" name="interparcel.autocompleter" template="interparcel/autocompleter.phtml" />
+        </reference>
+    </default>-->
+    <checkout_cart_index>        
+        <reference name="after_body_start">
+            <block type="core/template" name="interparcel_js" template="interparcel/js.phtml" />
+        </reference>
+        <reference name="head">
+            <action method="addJs">
+                <script>interparcel/shippingestimator.js</script>
+            </action>
+            <action method="addItem"><type>skin_css</type><name>css/interparcel.css</name></action>
+        </reference>
+        <reference name="checkout.cart.shipping">
+            <action method="setTemplate"><template>interparcel/checkout/cart/shipping.phtml</template></action>
+        </reference>
+    </checkout_cart_index>
+    <checkout_onepage_index>
+        <reference name="after_body_start">
+            <block type="core/template" name="interparcel_js" template="interparcel/js.phtml" />
+        </reference>
+        <reference name="head">
+            <action method="addJs">
+                <script>interparcel/billing.js</script>
+            </action>
+            <action method="addJs">
+                <script>interparcel/shipping.js</script>
+            </action>
+            <action method="addItem"><type>skin_css</type><name>css/interparcel.css</name></action>
+        </reference>        
+    </checkout_onepage_index>
+</layout>

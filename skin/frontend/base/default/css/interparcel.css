@@ -1,0 +1,11 @@
+div.autocomplete {
+    z-index: 10000;
+    position: absolute;
+    width: 250px;
+    background-color: white;
+    border: 1px solid #888;
+    margin: 0;
+    padding: 0;
+}
+div.autocomplete li:hover{background:#edf7fd;}
+div.autocomplete li{margin:0;text-align: left}
