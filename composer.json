@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Interparcel_Australia_Rates",
+    "name": "OpenMageModuleFostering\/Interparcel_Australia_Rates",
     "type": "magento-module",
     "license": "GNU-Lesser-General-Public-License-(LGPL)-",
     "homepage": "",
     "description": "Interparcel offer a rate extention to take advantage of our low cost courier rates using some of Australia's biggest couriers",
     "authors": [
-    {
-        "name": "Steve",
-        "email": "customerservices@interparcel.com.au"
-    }
-],
+        {
+            "name": "Steve",
+            "email": "customerservices@interparcel.com.au"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
